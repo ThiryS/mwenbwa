@@ -60,6 +60,7 @@ function MapOpen(props) {
         <Map
             viewport={{center: mapCenter, zoom: mapZoom}}
             minZoom={15}
+            tap={false} //enables ios users to click and use the app correctly (prevent bugs)
             onViewportChanged={(e) => {
                 setMapZoom(e.zoom);
                 setMapCenter(e.center);
