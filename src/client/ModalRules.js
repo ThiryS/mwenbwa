@@ -25,7 +25,7 @@ function ModalRules(props) {
                 <Modal.Body>
                     <p>
                         <img className="tree-image" src={leaf} />
-                        New users receive 3 trees and 2000 leaves
+                        New users receive 3 trees and 5000 leaves
                     </p>
                     <p>
                         <img className="tree-image" src={leaf} />

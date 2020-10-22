@@ -1,7 +1,6 @@
 // eslint-disable-next-line unicorn/filename-case
 import React, {useState, useEffect} from "react";
 import "./Dashboard.css";
-import player from "./data/player.jpg";
 import axios from "./axios";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
@@ -68,7 +67,7 @@ function Dashboard(props) {
         setIntervalId(
             setInterval(() => {
                 addLeaves();
-            }, 60000),
+            }, 300000),
         );
     }, []);
 
